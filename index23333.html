@@ -4,13 +4,25 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>Starter Page</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+        </style>
 </head>
 
 <body>
@@ -71,6 +83,36 @@
                     <a href="#" class="btn btn-primary">See Profile</a>
                   </div>
                 </div>
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="gambar.jpg" alt="Los Angeles" height="200">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="gambar2.jpg" alt="Chicago" height="200">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="gambar3.jpg" alt="New York" height="200">
+                      </div>
+                    </div>
+                    
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
             <p>IT Professional with over <strong>10 years</strong> of experience specializing in <strong>IT department management</strong> for international
             logistics companies. I can implement effective <strong>IT strategies</strong> at local and global levels. My greatest strength is business awareness, 
             which enables me to permanently streamline infrastructure and application. Striving to leverage my IT management skills at SanCorp Inc.</p>
@@ -178,15 +220,19 @@
                 <p><strong>Microsoft Project</strong></p> 
                 <div class="progress">
                   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%"></div>
-                  <br>
+                  </div>
                   <p><strong>MS Windows Server</strong></p> 
+                <div class="progress">
                   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:60%"></div>
+                  </div>
                   <p><strong>Linux</strong></p> 
                 <div class="progress">
                   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+                </div>
                   <p><strong>Excel</strong></p> 
                 <div class="progress">
                   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%"></div>
+                  </div>
                 </div>
               </div>
             <div class="header1"><h5>Interests</h5></div>
