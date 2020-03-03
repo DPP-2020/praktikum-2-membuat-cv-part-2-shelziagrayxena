@@ -1,0 +1,49 @@
+body {
+    font-size:14px;
+    font-family: calibri;
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+    font-weight:bold;
+}
+
+ol, ul {
+    display:block;
+    list-style-type:disc;
+    margin-block-end:1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.header1 {
+    padding-top:5px;
+    padding-bottom:1px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.year {}
+
+.sidebar {
+    color: #ffffff;
+    background-color: #252872;
+    padding: 30px;
+}
+
+.header2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size:20px;
+    background-color:#121549 ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size:18px;
+    font-weight:bold;
+}
